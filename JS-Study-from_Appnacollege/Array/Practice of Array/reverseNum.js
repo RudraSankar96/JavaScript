@@ -12,5 +12,5 @@ for(i=0;i<=num1.length;i++){
     if(num1[i]>max){
        max=num1[i]
     }
-    console.log(max);
 }
+console.log(max);
