@@ -11,5 +11,5 @@ function countDigit(n){
     return count 
     
 }
-let answer= countDigit(30045); 
+let answer= countDigit(30045); // Answer is-: 3+0+0+4+5=12
 console.log(answer);
