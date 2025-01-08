@@ -22,3 +22,14 @@ let x=900; y=899;
 let val= arrSub(x,y);
 console.log('The rsult of substraction is',val);
 // Output is :- The rsult of substraction is 1
+
+// addition using arrow function
+function add(c,d){
+    return c+d;
+}
+const arrAdd=(c,d)=>{
+    return c+d;
+}
+let c=76890; d=9870564;
+let val2= arrAdd(c,d);
+console.log(val2);
