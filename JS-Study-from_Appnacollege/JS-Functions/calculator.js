@@ -15,6 +15,10 @@ function calculator(a,b,operation){
         }
         return a/b;
     }
+    else{
+       return "invalid operation";
+    }
+    
 }
 
 let a=45; b=5;
