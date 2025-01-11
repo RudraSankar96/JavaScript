@@ -10,3 +10,11 @@ console.log(num*num);
 //           9
 //           16
 //           25
+
+// other way
+ let int=[50,80,90,60];
+ let printSquare=(num)=>{
+      console.log(num*num);
+ };
+ int.forEach(printSquare);
+ 
