@@ -5,4 +5,5 @@ let fact=1;
 for( let i=n; i>=1; i--){
     fact= fact*i;
 }
-console.log(fact);
+console.log(fact); 
+// its work like 5*4*3*2*1=120
