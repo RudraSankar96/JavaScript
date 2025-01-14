@@ -14,6 +14,16 @@ console.log(result);
 
 let numbers=[2,3,4,5,6];
 const result2=numbers.map((number)=>{
-    return "Value:" + (number*2)
+    return  "Value:" + (number*2)
 });
 console.log(result2);
+
+// Another example
+
+let a = [2, 5, 6, 3, 8, 9];
+// Using map to transform elements
+let res = a.map(function (val, index) {
+    return { key: index, value: val * val };
+})
+
+console.log(res)
