@@ -27,3 +27,15 @@ let res = a.map(function (val, index) {
 })
 
 console.log(res)
+
+// 15. JavaScript Array map() Method
+// The map() method creates an array by calling a specific function on each element present in the parent array. 
+// It is a non-mutating method.
+
+let x = [4, 9, 16, 25];
+let sub = x.map(geeks);
+
+function geeks() {
+    return x.map(Math.sqrt);
+}
+console.log(sub);
