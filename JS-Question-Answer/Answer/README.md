@@ -26,3 +26,9 @@ JavaScript data types are categorized into two parts i.e. primitive and non-prim
 
 5. What is the use of the isNaN function?
     The number isNan function determines whether the passed value is NaN (Not a number) and is of the type “Number”. In JavaScript, the value NaN is considered a type of number. It returns true if the argument is not a number, else it returns false.
+
+6. Which is faster in JavaScript and ASP script?
+    JavaScript is faster compared to ASP Script. JavaScript is a client-side scripting language and does not depend on the server to execute. The ASP script is a server-side scripting language always dependable on the server.
+
+7. What is negative infinity?
+    The negative infinity is a constant value represents the lowest available value. It means that no other number is lesser than this value. It can be generate using a self-made function or by an arithmetic operation. JavaScript shows the NEGATIVE_INFINITY value as -Infinity.
