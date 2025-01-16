@@ -39,3 +39,6 @@ JavaScript data types are categorized into two parts i.e. primitive and non-prim
 10. What are undeclared and undefined variables?
     1.Undefined: It occurs when a variable is declare but not assign any value. Undefined is not a keyword.
     2.Undeclared: It occurs when we try to access any variable which is not initialize or declare earlier using the var or const keyword. If we use ‘typeof’ operator to get the value of an undeclare variable, we will face the runtime error with the return value as “undefined”. The scope of the undeclare variables is always global.
+
+17. What is the ‘this’ keyword in JavaScript?
+    Functions in JavaScript are essential objects. Like objects, it can be assign to variables, pass to other functions, and return from functions. And much like objects, they have their own properties. ‘this’ stores the current execution context of the JavaScript program. Thus, when it use inside a function, the value of ‘this’ will change depending on how the function is defined, how it is invoked, and the default execution context.
