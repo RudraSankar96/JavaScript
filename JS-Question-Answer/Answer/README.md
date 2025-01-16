@@ -32,3 +32,10 @@ JavaScript data types are categorized into two parts i.e. primitive and non-prim
 
 7. What is negative infinity?
     The negative infinity is a constant value represents the lowest available value. It means that no other number is lesser than this value. It can be generate using a self-made function or by an arithmetic operation. JavaScript shows the NEGATIVE_INFINITY value as -Infinity.
+
+9. Which company developed JavaScript?
+    Netscape developed JavaScript and was created by Brenden Eich in the year of 1995.
+
+10. What are undeclared and undefined variables?
+    1.Undefined: It occurs when a variable is declare but not assign any value. Undefined is not a keyword.
+    2.Undeclared: It occurs when we try to access any variable which is not initialize or declare earlier using the var or const keyword. If we use ‘typeof’ operator to get the value of an undeclare variable, we will face the runtime error with the return value as “undefined”. The scope of the undeclare variables is always global.
