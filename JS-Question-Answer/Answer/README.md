@@ -79,3 +79,26 @@ JavaScript data types are categorized into two parts i.e. primitive and non-prim
     let arr1 = [1, 2];
     let arr2 = [3, 4];
     let merged = [...arr1, ...arr2];
+
+17. How do you sort an array of numbers?
+    javascript
+    Copy
+    Edit
+    let arr = [10, 5, 8];
+    arr.sort((a, b) => a - b); // Ascending
+    arr.sort((a, b) => b - a); // Descending
+
+18. How do you find the maximum or minimum value in an array?
+    javascript
+    Copy
+    Edit
+    let arr = [1, 2, 3];
+    let max = Math.max(...arr);
+    let min = Math.min(...arr);
+
+19. How do you reverse an array?
+    javascript
+    Copy
+    Edit
+    let arr = [1, 2, 3];
+    arr.reverse(); // [3, 2, 1]
