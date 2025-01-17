@@ -43,5 +43,25 @@ JavaScript data types are categorized into two parts i.e. primitive and non-prim
 8. What is the ‘this’ keyword in JavaScript?
     Functions in JavaScript are essential objects. Like objects, it can be assign to variables, pass to other functions, and return from functions. And much like objects, they have their own properties. ‘this’ stores the current execution context of the JavaScript program. Thus, when it use inside a function, the value of ‘this’ will change depending on how the function is defined, how it is invoked, and the default execution context.
 
-18. Explain the working of timers in JavaScript. Also explain the drawbacks of using the timer, if any.
+9. Explain the working of timers in JavaScript. Also explain the drawbacks of using the timer, if any.
     The timer executes some specific code at a specific time or any small amount of code in repetition to do that you need to use the functions setTimout, setInterval, and clearInterval. If the JavaScript code sets the timer to 2 minutes and when the times are up then the page displays an alert message “times up”. The setTimeout() method calls a function or evaluates an expression after a specified number of milliseconds.
+
+10. What are the different ways to create an array in JavaScript?
+
+    Using array literal syntax: let arr = [1, 2, 3];
+    Using the Array constructor: let arr = new Array(1, 2, 3);
+    Using Array.of(): let arr = Array.of(1, 2, 3);
+    Using Array.from(): let arr = Array.from('abc'); // ['a', 'b', 'c']
+
+11. How do you check if a variable is an array?
+    Array.isArray(variable)
+
+12. What is the difference between push() and unshift()?
+     push(): Adds elements to the end of the array.
+    unshift(): Adds elements to the beginning of the array.
+
+13. How can you remove the last element of an array?
+    Using pop(): arr.pop();
+    
+14. How do you find the length of an array?
+    Using the length property: arr.length.
