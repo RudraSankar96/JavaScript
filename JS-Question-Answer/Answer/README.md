@@ -64,3 +64,18 @@ JavaScript data types are categorized into two parts i.e. primitive and non-prim
     Using pop(): arr.pop();
 14. How do you find the length of an array?
     Using the length property: arr.length.
+
+15. How do you remove duplicates from an array?
+    javascript
+    Copy
+    Edit
+    let arr = [1, 2, 2, 3, 4, 4];
+    let unique = [...new Set(arr)];
+
+16. How can you merge two arrays?
+    javascript
+    Copy
+    Edit
+    let arr1 = [1, 2];
+    let arr2 = [3, 4];
+    let merged = [...arr1, ...arr2];
