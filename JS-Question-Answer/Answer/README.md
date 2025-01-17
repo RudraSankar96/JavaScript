@@ -62,6 +62,5 @@ JavaScript data types are categorized into two parts i.e. primitive and non-prim
 
 13. How can you remove the last element of an array?
     Using pop(): arr.pop();
-    
 14. How do you find the length of an array?
     Using the length property: arr.length.
