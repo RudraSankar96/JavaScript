@@ -102,3 +102,17 @@ JavaScript data types are categorized into two parts i.e. primitive and non-prim
     Edit
     let arr = [1, 2, 3];
     arr.reverse(); // [3, 2, 1]
+
+20. How do you flatten a nested array?
+    javascript
+    Copy
+    Edit
+    let nested = [1, [2, [3, [4]]]];
+    let flat = nested.flat(Infinity); // [1, 2, 3, 4]
+21. What does the map() method do?
+    Creates a new array by applying a callback function to each element.
+    javascript
+    Copy
+    Edit
+    let arr = [1, 2, 3];
+    let doubled = arr.map(x => x * 2); // [2, 4, 6]
