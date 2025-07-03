@@ -7,3 +7,16 @@ function fibonacci(n) {
 }
 
 fibonacci(5);
+
+function greetUser(name) {
+  return `Welcome, ${name}!`;
+}
+
+console.log(greetUser("Rudra"));
+
+
+function circleArea(radius) {
+  return Math.PI * radius * radius;
+}
+
+console.log(circleArea(5)); // 78.54
